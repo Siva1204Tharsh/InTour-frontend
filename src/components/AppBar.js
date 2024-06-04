@@ -36,10 +36,10 @@ const AppBar = () => {
             </Nav.Link>
           </Nav>
           <div className="d-flex px-3">
-            <Button variant="outline-primary" className="me-2 fw-bold">
+            <Button variant="outline-primary" className="me-2 fw-bold" href="login">
               Sign in
             </Button>
-            <Button variant="outline-info" className="fw-bold">
+            <Button variant="outline-info" className="fw-bold" href="register">
               Sign up
             </Button>
           </div>

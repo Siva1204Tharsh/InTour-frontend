@@ -1,17 +1,19 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 const Home = () => {
   return (
-    <Container fluid  >
+    <div className="bg-light">
+    <Container fluid className="pt-3">
       <Row className="justify-content-center align-items">
         <Col lg={8}>
           <Carousel>
             <Carousel.Item>
-              <img
+              <Image
                 className="d-block w-100"
-                src={require("../assets/ban01.jpg")}
+                src={require("../assets/banner01.jpg")}
                 alt="First slide"
+                rounded
               />
               <Carousel.Caption>
                 <h3>First slide label</h3>
@@ -21,10 +23,11 @@ const Home = () => {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={require("../assets/ban02.jpg")}
+              <Image
+                className="d-block w-100 "
+                src={require("../assets/banner02.jpg")}
                 alt="Second slide"
+                rounded
               />
               <Carousel.Caption>
                 <h3>Second slide label</h3>
@@ -32,10 +35,11 @@ const Home = () => {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={require("../assets/ban03.jpg")}
+              <Image
+                className="d-block w-100 "
+                src={require("../assets/banner03.jpg")}
                 alt="Third slide"
+                rounded
               />
               <Carousel.Caption>
                 <h3>Third slide label</h3>
@@ -46,10 +50,11 @@ const Home = () => {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img
+              <Image
                 className="d-block w-100"
-                src={require("../assets/ban04.jpg")}
+                src={require("../assets/banner04.jpg")}
                 alt="Third slide"
+                rounded
               />
               <Carousel.Caption>
                 <h3>Fouth slide label</h3>
@@ -63,12 +68,13 @@ const Home = () => {
         </Col>
       </Row>
       <div className="text-center">
-        <h2 className="display-5 mt-3">Pizzas for Every Occasional</h2>
+        <h2 className="display-5 mt-3">Tourism for beautiful places</h2>
         <p className="lead text-muted">
           Lorem ipsum dolorlaudantium, nam impedit!
         </p>
       </div>
     </Container>
+    </div>
   );
 };
 
