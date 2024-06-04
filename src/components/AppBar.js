@@ -21,9 +21,9 @@ const AppBar = () => {
               id="basic-nav-dropdown"
               className="fw-bold px-3"
             >
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Tour Guides</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                Hotels
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
@@ -36,7 +36,11 @@ const AppBar = () => {
             </Nav.Link>
           </Nav>
           <div className="d-flex px-3">
-            <Button variant="outline-primary" className="me-2 fw-bold" href="login">
+            <Button
+              variant="outline-primary"
+              className="me-2 fw-bold"
+              href="login"
+            >
               Sign in
             </Button>
             <Button variant="outline-info" className="fw-bold" href="register">
