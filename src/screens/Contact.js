@@ -80,6 +80,7 @@ const Contact = () => {
               deserunt ipsam sint aliquid dolores libero repellendus cupiditate
               mollitia quidem dolorem.
             </p>
+            <div className="mt-3"></div>
           </div>
         </Col>
       </Row>
