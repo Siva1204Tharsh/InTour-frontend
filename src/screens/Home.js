@@ -70,7 +70,7 @@ const Home = () => {
       <div className="text-center">
         <h2 className="display-5 mt-3">Tourism for beautiful places</h2>
         <p className="lead text-muted">
-          Lorem ipsum dolorlaudantium, nam impedit!
+          Lorem ipsum dolorlaudantium, nam impedit!dghrehehr
         </p>
       </div>
     </Container>
