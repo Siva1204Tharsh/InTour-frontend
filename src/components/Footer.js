@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="p-3 mb-0 text-center bg-success-subtle">
-      <h4>InTournetExplorer</h4>
+      <h4>InTour</h4>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, neque
         accusamus culpa dolorum consectetur iure inventore

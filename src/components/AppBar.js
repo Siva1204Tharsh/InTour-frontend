@@ -9,7 +9,7 @@ const AppBar = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary ">
       <Container>
-        <Navbar.Brand href="/">InTourNetE</Navbar.Brand>
+        <Navbar.Brand href="/">InTour</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto px-5">
